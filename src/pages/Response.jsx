@@ -66,7 +66,7 @@ const Response = () => {
                 const formData = new FormData();
                 formData.append('file', imageFile);
 
-                const apiURL = "https://opsis-api.up.railway.app/analyze";
+                const apiURL = "https://opsis-api.onrender.com/analyze";
 
                 const response = await fetch(apiURL, {
                     method: 'POST',
